@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
-    android:background="@color/CambridgeBlue" >
+    android:background="@color/connosco_consegue_ler_novos_livros_em_troca_dos_seus_antigos__color">
 
     <ImageView
         android:id="@+id/imgLogoSplash"
@@ -13,7 +13,7 @@
         android:contentDescription="@string/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintHorizontal_bias="0.66"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498"
