@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:backgroundTint="@color/cambridgeBlue"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    tools:context=".InformationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvInformationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/project_made_by"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvInformationNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/diogo_silva_and_rita_coelho"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/tvInformationLogo"
+            android:layout_width="600px"
+            android:layout_height="600px"
+            android:background="@drawable/ellipse_shape"
+            android:src="@tools:sample/avatars"
+            app:srcCompat="@drawable/logowithoutslogan"
+            tools:srcCompat="@drawable/logowithoutslogan" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

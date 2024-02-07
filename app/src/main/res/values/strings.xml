@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">BookSwapHub</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="logo">logo</string>
     <string name="troque_Livro">Troque os seus Livros</string>
     <string name="livros_antigos">Connosco consegue ler novos livros em troca dos seus antigos!</string>
     <string name="btnEntry">Entre!</string>
+    <string name="login">Login</string>
+    <string name="emailLogin">Email address</string>
+    <string name="type_your_email">Type your Email</string>
+    <string name="haven_t_account">Haven\'t account ?</string>
+    <string name="register_now"> Register Now</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="password">Password</string>
+    <string name="type_your_name">Type your name</string>
+    <string name="project_made_by">Project made by</string>
+    <string name="diogo_silva_and_rita_coelho">Diogo Silva and Rita Coelho</string>
 </resources>

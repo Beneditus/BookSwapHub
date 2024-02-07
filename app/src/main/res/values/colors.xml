@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="myrtleGreen">#517A7B</color>
+    <color name="cambridgeBlue">#87ABAB</color>
+    <color name="linen">#F5EBDE</color>
+    <color name="coffee">#735135</color>
+    <color name="licorice">#291F1E</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="_bg__screen_ek2_color">#F5F5F5</color>
-    <color name="_bg__bg_ek1_color">#517A7B</color>
-    <color name="_bg__bg_ek3_color">#000000</color>
+
     <color name="ellipse_color">#FFFFFF</color>
     <color name="troque_os_seus_livros_color">#323434</color>
+    <color name="grayBackground">#F5F5F5</color>
+    <color name="grayText">#888888</color>
     <color name="connosco_consegue_ler_novos_livros_em_troca_dos_seus_antigos__color">#888888</color>
 </resources>
