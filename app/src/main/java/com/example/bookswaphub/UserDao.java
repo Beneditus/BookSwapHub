@@ -11,5 +11,5 @@ public interface UserDao {
     void registerUser(UserEntity userEntity);
 
     @Query("select * from users where email = :email and password = :password")
-    UserEntity getUserByEmailAndPassword(String email, String password);
+    UserEntity getUserEP(String email, String password);
 }

@@ -14,7 +14,6 @@ import android.widget.TextView;
 
 public class loginFragment extends Fragment {
 
-    // Views
     private EditText emailEditText;
     private EditText passwordEditText;
     private TextView registerTextView;
@@ -61,7 +60,7 @@ public class loginFragment extends Fragment {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                UserEntity user = userDao.getUserByEmailAndPassword(email, password);
+                UserEntity user = userDao.getUserEP(email, password);
                 if (user != null) {
 
                 } else {
