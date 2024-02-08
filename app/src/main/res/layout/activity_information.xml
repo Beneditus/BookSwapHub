@@ -42,7 +42,6 @@
             android:layout_width="600px"
             android:layout_height="600px"
             android:background="@drawable/ellipse_shape"
-            android:src="@tools:sample/avatars"
             app:srcCompat="@drawable/logowithoutslogan"
             tools:srcCompat="@drawable/logowithoutslogan" />
     </LinearLayout>

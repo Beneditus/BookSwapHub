@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background3"
-    android:backgroundTint="#87ABAB"
+    android:backgroundTint="@color/cambridgeBlue"
     android:backgroundTintMode="add"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,6 @@
             android:background="@drawable/ellipse_shape"
             android:backgroundTint="@color/white"
             android:scaleType="centerInside"
-            android:src="@tools:sample/avatars"
             app:srcCompat="@drawable/logowithoutslogan" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

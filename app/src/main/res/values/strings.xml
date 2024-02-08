@@ -15,4 +15,8 @@
     <string name="type_your_name">Type your name</string>
     <string name="project_made_by">Project made by</string>
     <string name="diogo_silva_and_rita_coelho">Diogo Silva and Rita Coelho</string>
+    <string name="add_book">Add Book</string>
+    <string name="publication_year">Publication Year</string>
+    <string name="author_name">Author Name</string>
+    <string name="book_name">Book Name</string>
 </resources>

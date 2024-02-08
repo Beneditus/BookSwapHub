@@ -3,6 +3,7 @@ package com.example.bookswaphub;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+import java.util.List;
 
 @Entity(tableName="users")
 public class UserEntity {
@@ -61,4 +62,5 @@ public class UserEntity {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
